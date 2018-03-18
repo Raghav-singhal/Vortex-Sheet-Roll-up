@@ -1,0 +1,117 @@
+\documentclass[12pt,twoside]{article}
+%\date{}   %uncommenting this erases the date
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{natbib}
+%\usepackage{verbatim}
+\usepackage{floatpag}
+\usepackage{subeqnarray}
+\usepackage{mathrsfs}    %for special characters
+\usepackage{cancel}  % to set terms in an equation to zero
+
+\usepackage{amsthm}
+
+\setlength{\textheight}     {9.0in}
+\setlength{\textwidth}      {6.5in}
+\setlength{\oddsidemargin}  {0.0in}
+\setlength{\evensidemargin} {0.0in}
+\setlength{\topmargin}      {0.0in}
+\setlength{\headheight}     {0.0in}
+\setlength{\headsep}        {0.0in}
+\setlength{\hoffset}        {0.0in}
+\setlength{\voffset}        {0.0in}
+\setlength{\parindent}      {0.0in}      %starting new line at extreme left
+
+\graphicspath{{Figures/}}
+
+\newcommand{\astrut}{\usebox{\astrutbox}}
+
+\newcommand\GaPQ{\ensuremath{G_a(P,Q)}}
+\newcommand\GsPQ{\ensuremath{G_s(P,Q)}}
+\newcommand\p{\ensuremath{\partial}}
+\newcommand\tti{\ensuremath{\rightarrow\infty}}
+\newcommand\kgd{\ensuremath{k\gamma d}}
+\newcommand\shalf{\ensuremath{{\scriptstyle\frac{1}{2}}}}
+\newcommand\sh{\ensuremath{^{\shalf}}}
+\newcommand\smh{\ensuremath{^{-\shalf}}}
+\newcommand\squart{\ensuremath{{\textstyle\frac{1}{4}}}}
+\newcommand\thalf{\ensuremath{{\textstyle\frac{1}{2}}}}
+\newcommand\Gat{\ensuremath{\widetilde{G_a}}}
+\newcommand\ttz{\ensuremath{\rightarrow 0}}
+\newcommand\ndq{\ensuremath{\frac{\mbox{$\partial$}}{\mbox{$\partial$} n_q}}}
+\newcommand\sumjm{\ensuremath{\sum_{j=1}^{M}}}
+\newcommand\pvi{\ensuremath{\int_0^{\infty}%
+  \mskip \ifCUPmtlplainloaded -30mu\else -33mu\fi -\quad}}
+
+\newcommand\etal{\mbox{\textit{et al.}}}
+\newcommand\etc{etc.\ }
+\newcommand\eg{e.g.\ }
+
+
+
+\newcommand{\bs}  [1]{\boldsymbol{#1}}
+\newcommand{\del} {\nabla}
+\newcommand{\bsh}  [1]{\boldsymbol{\hat{#1}}}
+\newcommand{\ul}  {\underline}
+\newcommand{\ol}  {\overline}
+\newcommand{\pp} [2]{\frac{\p{#1}}{\p{#2}}}
+\newcommand{\dd} [2]{\frac{d{#1}}{d{#2}}}
+\newcommand{\lam}  [1]{{#1}^{\tiny{\lambda}}}
+\newcommand{\conj} [1]{{#1}^*}
+\newcommand{\mods} [1]{ \vert {#1} \vert ^2}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{thm}{Theorem}
+\newtheorem{prop}{Proposition}
+
+\usepackage{bbm}
+\begin{document}
+
+\title{Thomas-Singhal Equations for the 2-layer model}
+
+
+\author{Raghav Singhal}
+
+\maketitle
+
+\section{Derivation}
+Let $H_1$ and $H_2$ denote the thickness of the upper and lower layer respectively. Let $L$ denote the horizontal scale of the system. The equations for the stream function are as follows:
+\begin{align}
+q_1=\Delta \psi_1 + \gamma^2(\psi_2-\psi_1)\\
+q_2=\Delta \psi_2 + \delta \gamma^2(\psi_1-\psi_2)
+\end{align}
+where $\gamma=\frac{L}{L_r}$, $\delta=\frac{H_1}{H_2}$, and $L_R=\frac{1}{2 \omega}\sqrt{\frac{g \Delta \rho H_1}{\rho}}$, and $\omega$ is the angular velocity at which the sytem rotates.
+
+The Green's Function for this system of couple partial differential equations can then be obtained by taking a linear combination of the stream functions, $\psi_1$ and $\psi_2$. The derivation for the Green's function is as follows,
+\begin{align}
+q_1 - q_2=\Delta (\psi_1 - \psi_2) - \gamma^2(1+\delta)(\psi_1 - \psi_2) \\
+\delta q_1 + q_2=\Delta(\delta \psi_1 + \psi_2)
+\end{align}
+Now equation (3) is the Helmholtz equation and equation (4) is the Poisson equation for which we can write the Green's function. The Green's functions for the Helmholtz equation and Poisson are,
+\begin{align}
+p=\frac{1}{2 \pi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \log(r) d\eta d \xi \\
+h=\frac{1}{2 \pi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} K_0(\lambda r) d\eta d \xi 
+\end{align}
+where $r=\sqrt{(x-\eta)^2 + (y - \xi)^2}$ and $\Gamma=\gamma \sqrt{1+\delta}$. So we obtain the following Green's function for the linear combinations,
+\begin{align}
+\psi_1 - \psi_2=\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\Big(q_1 - q_2\Big) K_0(\Gamma r) d\eta d \xi \\
+\delta \psi_1 + \psi_2=\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}-\Big(\delta q_1 + q_2\Big) \log (r) d\eta d \xi \\
+\end{align}
+From this we can obtain the separate Green's functions for the two stream functions, which are then 
+\begin{align}
+\psi_1=\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big) \log (r) d\eta d \xi + \frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\Big(\frac{-q_1 }{1+\delta} +  \frac{q_2}{1+\delta}\Big) K_0 (\Gamma r) d\eta d \xi \\
+\psi_2=\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big) \log (r) d\eta d \xi + \frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\Big(\frac{q_1 \delta }{1+\delta} -  \frac{q_2 \delta}{1+\delta}\Big) K_0 (\Gamma r) d\eta d \xi
+\end{align}
+Well now consider the situation where $q_1$ and $q_2$, the potential vorticity, are constant, so we can now derive the velocity by the relation $\bs v(\vec{x})=\hat{z} \times \nabla \psi$. So the resoective velocity fields are
+\begin{align}
+\bs v_1(\vec{x})=\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times (\vec{x}-\vec{\eta})}{r^2} +  \Big(\frac{-q_1 }{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times(\vec{x}-\vec{\eta})}{|r|} \Gamma K_1 (\Gamma r)  \\
+\bs v_2(\vec{x})=\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times (\vec{x}-\vec{\eta})}{r^2} +  \Big(\frac{q_1 \delta }{1+\delta} -  \frac{q_2 \delta}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times(\vec{x}-\vec{\eta})}{|r|} \Gamma K_1 (\Gamma r) 
+\end{align}
+Which now desingularize as
+\[\bs v_1(\vec{x})=\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times (\vec{x}-\vec{\eta})}{(x-\eta)^2 + (y-\xi)^2 + \alpha^2}\]  
+\[+  \Big(\frac{-q_1 }{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times(\vec{x}-\vec{\eta})}{\sqrt{(x-\eta)^2 + (y-\xi)^2 + \alpha^2}} \Gamma K_1 (\Gamma \sqrt{(x-\eta)^2 + (y-\xi)^2 + \alpha^2})\]
+ 
+\[\bs v_2(\vec{x})=\Big(\frac{q_1 \delta}{1+\delta} +  \frac{q_2}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times (\vec{x}-\vec{\eta})}{(x-\eta)^2 + (y-\xi)^2 + \alpha^2}\]  \[+ \Big(\frac{q_1 \delta }{1+\delta} -  \frac{q_2 \delta}{1+\delta}\Big)\frac{1}{2 \pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \frac{\hat{z} \times(\vec{x}-\vec{\eta})}{\sqrt{(x-\eta)^2 + (y-\xi)^2 + \alpha^2}} \Gamma K_1 (\Gamma \sqrt{(x-\eta)^2 + (y-\xi)^2 + \alpha^2}) \]
+where $\alpha$ is the desingularization parameter.
+\end{document}
