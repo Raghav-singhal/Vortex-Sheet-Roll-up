@@ -1,0 +1,751 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2015 23:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Computation of Vortex Sheet2 .tex"
+(./Computation of Vortex Sheet2 .tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/sttools/floatpag.sty
+Package: floatpag 2012/05/29 v1.1 Different pagestyles on float pages
+Package: floatpag 1999/04/29 FLOAT PAGESTYLE
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subeqnarray/subeqnarray.sty
+Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
+\c@subequation=\count100
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count101
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count102
+\c@subtable=\count103
+)
+(./Computation of Vortex Sheet2 .aux)
+\openout1 = `"Computation of Vortex Sheet2 .aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen121
+\scratchbox=\box28
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen122
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 73.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<K1.pdf, id=16, 433.62pt x 289.08pt>
+File: K1.pdf Graphic file (type pdf)
+ <use K1.pdf>
+Package pdftex.def Info: K1.pdf used on input line 129.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic1.png, id=17, 1090.0725pt x 606.265pt>
+File: periodic1.png Graphic file (type png)
+ <use periodic1.png>
+Package pdftex.def Info: periodic1.png used on input line 129.
+(pdftex.def)             Requested size: 108.39821pt x 86.71744pt.
+
+<K2.pdf, id=19, 433.62pt x 289.08pt>
+File: K2.pdf Graphic file (type pdf)
+ <use K2.pdf>
+Package pdftex.def Info: K2.pdf used on input line 131.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic2.png, id=20, 1051.93pt x 584.1825pt>
+File: periodic2.png Graphic file (type png)
+ <use periodic2.png>
+Package pdftex.def Info: periodic2.png used on input line 131.
+(pdftex.def)             Requested size: 108.39333pt x 79.49411pt.
+
+<K3.pdf, id=21, 433.62pt x 289.08pt>
+File: K3.pdf Graphic file (type pdf)
+ <use K3.pdf>
+Package pdftex.def Info: K3.pdf used on input line 133.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic3.png, id=22, 1053.9375pt x 582.175pt>
+File: periodic3.png Graphic file (type png)
+ <use periodic3.png>
+Package pdftex.def Info: periodic3.png used on input line 133.
+(pdftex.def)             Requested size: 108.39113pt x 86.71841pt.
+
+<K4.pdf, id=23, 433.62pt x 289.08pt>
+File: K4.pdf Graphic file (type pdf)
+ <use K4.pdf>
+Package pdftex.def Info: K4.pdf used on input line 135.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic4.png, id=24, 1027.84pt x 572.1375pt>
+File: periodic4.png Graphic file (type png)
+ <use periodic4.png>
+Package pdftex.def Info: periodic4.png used on input line 135.
+(pdftex.def)             Requested size: 108.40472pt x 86.71611pt.
+
+<K5.pdf, id=25, 433.62pt x 289.08pt>
+File: K5.pdf Graphic file (type pdf)
+ <use K5.pdf>
+Package pdftex.def Info: K5.pdf used on input line 137.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic5.png, id=26, 1024.82875pt x 563.10374pt>
+File: periodic5.png Graphic file (type png)
+ <use periodic5.png>
+Package pdftex.def Info: periodic5.png used on input line 137.
+(pdftex.def)             Requested size: 108.39989pt x 86.72168pt.
+
+<K6.pdf, id=27, 433.62pt x 289.08pt>
+File: K6.pdf Graphic file (type pdf)
+ <use K6.pdf>
+Package pdftex.def Info: K6.pdf used on input line 144.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+File: periodic1.png Graphic file (type png)
+ <use periodic1.png>
+Package pdftex.def Info: periodic1.png used on input line 144.
+(pdftex.def)             Requested size: 108.39821pt x 86.71744pt.
+
+<K7.pdf, id=28, 433.62pt x 289.08pt>
+File: K7.pdf Graphic file (type pdf)
+ <use K7.pdf>
+Package pdftex.def Info: K7.pdf used on input line 146.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic21.png, id=29, 1115.16624pt x 602.25pt>
+File: periodic21.png Graphic file (type png)
+ <use periodic21.png>
+Package pdftex.def Info: periodic21.png used on input line 146.
+(pdftex.def)             Requested size: 108.3922pt x 79.48988pt.
+
+<K8.pdf, id=30, 433.62pt x 289.08pt>
+File: K8.pdf Graphic file (type pdf)
+ <use K8.pdf>
+Package pdftex.def Info: K8.pdf used on input line 148.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic22.png, id=31, 1098.1025pt x 603.25375pt>
+File: periodic22.png Graphic file (type png)
+ <use periodic22.png>
+Package pdftex.def Info: periodic22.png used on input line 148.
+(pdftex.def)             Requested size: 108.39244pt x 86.71935pt.
+
+<K9.pdf, id=32, 433.62pt x 289.08pt>
+File: K9.pdf Graphic file (type pdf)
+ <use K9.pdf>
+Package pdftex.def Info: K9.pdf used on input line 150.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic23.png, id=33, 1089.06876pt x 607.26875pt>
+File: periodic23.png Graphic file (type png)
+ <use periodic23.png>
+Package pdftex.def Info: periodic23.png used on input line 150.
+(pdftex.def)             Requested size: 108.3981pt x 86.72202pt.
+
+<K10.pdf, id=34, 433.62pt x 289.08pt>
+File: K10.pdf Graphic file (type pdf)
+ <use K10.pdf>
+Package pdftex.def Info: K10.pdf used on input line 152.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodic24.png, id=35, 1091.07625pt x 599.23875pt>
+File: periodic24.png Graphic file (type png)
+ <use periodic24.png>
+Package pdftex.def Info: periodic24.png used on input line 152.
+(pdftex.def)             Requested size: 108.39813pt x 86.71823pt.
+
+<k11.pdf, id=36, 433.62pt x 289.08pt>
+File: k11.pdf Graphic file (type pdf)
+ <use k11.pdf>
+Package pdftex.def Info: k11.pdf used on input line 158.
+(pdftex.def)             Requested size: 144.53743pt x 96.11568pt.
+
+<periodiccloseup.png, id=37, 733.74126pt x 744.7825pt>
+File: periodiccloseup.png Graphic file (type png)
+
+<use periodiccloseup.png>
+Package pdftex.def Info: periodiccloseup.png used on input line 158.
+(pdftex.def)             Requested size: 108.39943pt x 79.49432pt.
+ [2]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[3 <./K1.pdf> <./periodic1.png> <./K2.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K2.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic2.png> <./K3.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K3.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic3.png> <./K4.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K4.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic4.png> <./K5.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K5.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic5.png>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[4 <./K6.pdf> <./K7.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K7.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic21.png> <./K8.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K8.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic22.png> <./K9.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K9.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./periodic23.png> <./K10.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./K10.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./periodic24.png>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[5 <./k11.pdf> <./periodiccloseup.png>] <k12.pdf, id=441, 433.62pt x 289.08pt>
+File: k12.pdf Graphic file (type pdf)
+
+<use k12.pdf>
+Package pdftex.def Info: k12.pdf used on input line 169.
+(pdftex.def)             Requested size: 195.1272pt x 108.40472pt.
+ <k13.pdf, id=442, 433.62pt x 289.08pt>
+File: k13.pdf Graphic file (type pdf)
+ <use k13.pdf>
+Package pdftex.def Info: k13.pdf used on input line 170.
+(pdftex.def)             Requested size: 195.1272pt x 108.40472pt.
+
+<k14.pdf, id=443, 433.62pt x 289.08pt>
+File: k14.pdf Graphic file (type pdf)
+ <use k14.pdf>
+Package pdftex.def Info: k14.pdf used on input line 171.
+(pdftex.def)             Requested size: 195.1272pt x 108.40472pt.
+
+<k15.pdf, id=444, 433.62pt x 289.08pt>
+File: k15.pdf Graphic file (type pdf)
+ <use k15.pdf>
+Package pdftex.def Info: k15.pdf used on input line 172.
+(pdftex.def)             Requested size: 195.1272pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--174
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--174
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--174
+[]
+ []
+
+<period.png, id=445, 379.4175pt x 459.7175pt>
+File: period.png Graphic file (type png)
+ <use period.png>
+Package pdftex.def Info: period.png used on input line 177.
+(pdftex.def)             Requested size: 144.53908pt x 385.2201pt.
+
+<tr1.pdf, id=446, 1156.32pt x 289.08pt>
+File: tr1.pdf Graphic file (type pdf)
+ <use tr1.pdf>
+Package pdftex.def Info: tr1.pdf used on input line 186.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref0.png, id=447, 1444.39626pt x 141.52875pt>
+File: Tref0.png Graphic file (type png)
+ <use Tref0.png>
+Package pdftex.def Info: Tref0.png used on input line 186.
+(pdftex.def)             Requested size: 180.65929pt x 28.9056pt.
+
+<tr2.pdf, id=448, 1156.32pt x 289.08pt>
+File: tr2.pdf Graphic file (type pdf)
+ <use tr2.pdf>
+Package pdftex.def Info: tr2.pdf used on input line 187.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref1.png, id=449, 1444.39626pt x 137.51375pt>
+File: Tref1.png Graphic file (type png)
+ <use Tref1.png>
+Package pdftex.def Info: Tref1.png used on input line 187.
+(pdftex.def)             Requested size: 180.65929pt x 28.906pt.
+
+<tr3.pdf, id=450, 1156.32pt x 289.08pt>
+File: tr3.pdf Graphic file (type pdf)
+ <use tr3.pdf>
+Package pdftex.def Info: tr3.pdf used on input line 188.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref2.png, id=451, 1444.39626pt x 178.6675pt>
+File: Tref2.png Graphic file (type png)
+ <use Tref2.png>
+Package pdftex.def Info: Tref2.png used on input line 188.
+(pdftex.def)             Requested size: 180.65929pt x 32.52135pt.
+
+<tr4.pdf, id=452, 1156.32pt x 289.08pt>
+File: tr4.pdf Graphic file (type pdf)
+ <use tr4.pdf>
+Package pdftex.def Info: tr4.pdf used on input line 190.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref3.png, id=453, 1443.3925pt x 206.7725pt>
+File: Tref3.png Graphic file (type png)
+ <use Tref3.png>
+Package pdftex.def Info: Tref3.png used on input line 190.
+(pdftex.def)             Requested size: 180.66588pt x 36.13524pt.
+
+<tr5.pdf, id=454, 1156.32pt x 289.08pt>
+File: tr5.pdf Graphic file (type pdf)
+ <use tr5.pdf>
+Package pdftex.def Info: tr5.pdf used on input line 192.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref4.png, id=455, 429.605pt x 81.30376pt>
+File: Tref4.png Graphic file (type png)
+ <use Tref4.png>
+Package pdftex.def Info: Tref4.png used on input line 192.
+(pdftex.def)             Requested size: 180.6754pt x 50.59016pt.
+
+<tr6.pdf, id=456, 1156.32pt x 289.08pt>
+File: tr6.pdf Graphic file (type pdf)
+ <use tr6.pdf>
+Package pdftex.def Info: tr6.pdf used on input line 196.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref5.png, id=457, 421.575pt x 118.4425pt>
+File: Tref5.png Graphic file (type png)
+ <use Tref5.png>
+Package pdftex.def Info: Tref5.png used on input line 196.
+(pdftex.def)             Requested size: 180.67546pt x 50.58769pt.
+
+<tr7.pdf, id=458, 1156.32pt x 289.08pt>
+File: tr7.pdf Graphic file (type pdf)
+ <use tr7.pdf>
+Package pdftex.def Info: tr7.pdf used on input line 199.
+(pdftex.def)             Requested size: 216.80946pt x 96.11568pt.
+
+<Tref6.png, id=459, 469.755pt x 210.7875pt>
+File: Tref6.png Graphic file (type png)
+ <use Tref6.png>
+Package pdftex.def Info: Tref6.png used on input line 199.
+(pdftex.def)             Requested size: 180.67345pt x 50.5868pt.
+
+
+LaTeX Warning: Float too large for page by 80.37973pt on input line 202.
+
+[6
+
+ <./k12.pdf> <./k13.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./k13.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./k14.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./k14.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./k15.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./k15.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./period.png>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[7 <./tr1.pdf> <./Tref0.png> <./tr2.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr2.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref1.png> <./tr3.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr3.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref2.png> <./tr4.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr4.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref3.png> <./tr5.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr5.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref4.png> <./tr6.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr6.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref5.png> <./tr7.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./tr7.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Tref6.png>] <FU1.pdf, id=842, 722.7pt x 361.35pt>
+File: FU1.pdf Graphic file (type pdf)
+ <use FU1.pdf>
+Package pdftex.def Info: FU1.pdf used on input line 231.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse1.png, id=843, 1193.45876pt x 210.7875pt>
+File: fuse1.png Graphic file (type png)
+ <use fuse1.png>
+Package pdftex.def Info: fuse1.png used on input line 231.
+(pdftex.def)             Requested size: 144.53825pt x 36.13252pt.
+
+<FU2.pdf, id=844, 722.7pt x 361.35pt>
+File: FU2.pdf Graphic file (type pdf)
+ <use FU2.pdf>
+Package pdftex.def Info: FU2.pdf used on input line 233.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse2.png, id=845, 1201.48875pt x 307.1475pt>
+File: fuse2.png Graphic file (type png)
+ <use fuse2.png>
+Package pdftex.def Info: fuse2.png used on input line 233.
+(pdftex.def)             Requested size: 144.5391pt x 50.58809pt.
+
+<FU3.pdf, id=846, 722.7pt x 361.35pt>
+File: FU3.pdf Graphic file (type pdf)
+ <use FU3.pdf>
+Package pdftex.def Info: FU3.pdf used on input line 235.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse3.png, id=847, 1292.83pt x 448.67625pt>
+File: fuse3.png Graphic file (type png)
+ <use fuse3.png>
+Package pdftex.def Info: fuse3.png used on input line 235.
+(pdftex.def)             Requested size: 144.53952pt x 72.26889pt.
+
+<FU4.pdf, id=848, 722.7pt x 289.08pt>
+File: FU4.pdf Graphic file (type pdf)
+ <use FU4.pdf>
+Package pdftex.def Info: FU4.pdf used on input line 237.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse4.png, id=849, 415.5525pt x 142.5325pt>
+File: fuse4.png Graphic file (type png)
+ <use fuse4.png>
+Package pdftex.def Info: fuse4.png used on input line 237.
+(pdftex.def)             Requested size: 144.53882pt x 72.26868pt.
+
+<FU5.pdf, id=850, 722.7pt x 289.08pt>
+File: FU5.pdf Graphic file (type pdf)
+ <use FU5.pdf>
+Package pdftex.def Info: FU5.pdf used on input line 239.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse5.png, id=851, 482.80376pt x 128.48pt>
+File: fuse5.png Graphic file (type png)
+ <use fuse5.png>
+Package pdftex.def Info: fuse5.png used on input line 239.
+(pdftex.def)             Requested size: 144.54019pt x 72.2698pt.
+
+<FU6.pdf, id=852, 722.7pt x 289.08pt>
+File: FU6.pdf Graphic file (type pdf)
+ <use FU6.pdf>
+Package pdftex.def Info: FU6.pdf used on input line 240.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse6.png, id=853, 470.75874pt x 133.49875pt>
+File: fuse6.png Graphic file (type png)
+ <use fuse6.png>
+Package pdftex.def Info: fuse6.png used on input line 240.
+(pdftex.def)             Requested size: 144.54016pt x 72.27156pt.
+
+<FU7.pdf, id=854, 722.7pt x 289.08pt>
+File: FU7.pdf Graphic file (type pdf)
+ <use FU7.pdf>
+Package pdftex.def Info: FU7.pdf used on input line 241.
+(pdftex.def)             Requested size: 216.81166pt x 96.11568pt.
+
+<fuse7.png, id=855, 507.8975pt x 181.67876pt>
+File: fuse7.png Graphic file (type png)
+ <use fuse7.png>
+Package pdftex.def Info: fuse7.png used on input line 241.
+(pdftex.def)             Requested size: 144.5353pt x 72.27101pt.
+
+
+LaTeX Warning: Float too large for page by 65.87973pt on input line 244.
+
+[8
+
+]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[9 <./FU1.pdf> <./fuse1.png> <./FU2.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU2.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse2.png> <./FU3.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU3.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse3.png> <./FU4.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU4.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse4.png> <./FU5.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU5.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse5.png> <./FU6.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU6.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse6.png> <./FU7.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./FU7.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./fuse7.png>] [10
+
+] (./Computation of Vortex Sheet2 .aux) ) 
+Here is how much of TeX's memory you used:
+ 3898 strings out of 493117
+ 57111 string characters out of 6135433
+ 119543 words of memory out of 5000000
+ 7244 multiletter control sequences out of 15000+600000
+ 16207 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,15n,38p,700b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on "Computation of Vortex Sheet2 .pdf" (10 pages, 2372585 bytes)
+.
+PDF statistics:
+ 1145 PDF objects out of 1200 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+
